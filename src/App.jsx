@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import Header from './componenets/Header'
+
 import { BrowserRouter, Routes, Route, Link ,createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Loginpage from './componenets/Loginpage'
 import Home from './componenets/Home'
@@ -81,15 +80,6 @@ const router = createBrowserRouter([
 function App() {
 
   
-    
-    
-    /*<BrowserRouter>
-    <Header/>
-    <Routes>
-        <Route path="/" element={<div>this is homepage</div>} />
-        <Route path="/login" element={<Loginpage />} />
-    </Routes>
-    </BrowserRouter>*/
 
     return (
       <>

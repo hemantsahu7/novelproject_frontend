@@ -3,13 +3,13 @@ import { useParams } from 'react-router-dom';
 import React from 'react';
 import '../css/Novelpage.css';
 import Novelheader from './Novelheader';
-import Summary from './summary.jsx';
+import Summary from './Summary.jsx';
 import Header from './Header.jsx';
 import Chaptertable from './Chaptertable.jsx';
 import axios from "axios";
 import Footercomponent from './Footercomponent.jsx';
 import Postreview from './Postreview.jsx';
-import Comment from "./comment.jsx";
+import Comment from "./Comment.jsx";
 import image from "../assets/default-pic.png";
 import { profilecontext } from './context.jsx';
 

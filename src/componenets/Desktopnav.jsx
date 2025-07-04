@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { searchcontext } from "./context";
 import Searchbar from './Searchbar'
-import Profile from "./profile";
+import Profile from "./Profile";
 import {Link} from "react-router-dom";
 
 function Desktopnav(){

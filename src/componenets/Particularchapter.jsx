@@ -5,7 +5,7 @@ import axios from "axios";
 import Header from "./Header";
 import { profilecontext } from "./context.jsx";
 import Footercomponent from './Footercomponent.jsx';
-import Chaptersettings from './chaptersettings.jsx';
+import Chaptersettings from './Chaptersettings.jsx';
 
 const Particularchapter = () => {
     const navigate = useNavigate();

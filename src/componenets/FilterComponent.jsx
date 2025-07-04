@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '../css/TagSelector.css';
 import Header from './Header';
-import Novelcatlog from './novelcatlog';
+import Novelcatlog from './Novelcatlog';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Footercomponent from './Footercomponent';
