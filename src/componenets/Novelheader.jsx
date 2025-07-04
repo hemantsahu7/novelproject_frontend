@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "../css/Novelheader.css";
+import "../css/novelheader.css";
 import { profilecontext } from "./context";
 import axios from "axios";
 import Star from "./Star";
