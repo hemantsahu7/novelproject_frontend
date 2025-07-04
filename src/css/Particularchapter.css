@@ -1,0 +1,110 @@
+.particularchapter-topcontainer{
+  min-height: 100vh;
+  width:100%;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+.particularchapter-container {
+  display: flex;
+  flex-direction: column;
+    position: relative;
+    width: 80%;
+    margin: 1rem auto;
+    /*padding: 2rem;*/
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+  }
+  
+  .particularchapter-header {
+    border-bottom: 1px solid #ddd;
+    background-color: #720e9e;
+    padding:2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    
+  }
+  
+  .particularnovel-title {
+    flex-grow: 1;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+  }
+  
+  .particularchapter-title {
+    font-size: 1.3rem;
+    color: whitesmoke;
+    margin: 0.5rem 0 2rem 0;
+  }
+  
+  .particularchapter-content{
+    flex-grow: 1;
+    padding:2rem;
+    
+  }
+  
+  .particularchapter-content p {
+    line-height: 1.6;
+    color: #333333;
+    font-size: 32px;
+  }
+  
+  .particularchapter-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  
+  }
+  
+  .particularnavigation {
+    padding: 0.5rem 1rem;
+    background-color: #a37bdc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .particularnavigation:hover {
+    background-color: #8b5ac2;
+  }
+
+  .particularnavigation:disabled {
+    background-color: #8b5ac2;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.setting-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setting-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  background-color:#5a4cb0;
+  color:white;
+  padding:5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border:1px solid #5a4cb0 ;
+}
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+  height:auto;
+  
+}
+  

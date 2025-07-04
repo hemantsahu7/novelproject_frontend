@@ -1,0 +1,74 @@
+.review-comment {
+    width:80%;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #ffffff;
+    
+}
+
+.comment-user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.comment-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.username-role {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-role h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.user-role {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.comment-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.comment-rating-value {
+    margin-left: 0.25rem;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.chapter-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+ .time-ago {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.star-color {
+    color: #FFAA00;
+}
+
+.star-grey {
+    color: #d3d3d3;
+}
+

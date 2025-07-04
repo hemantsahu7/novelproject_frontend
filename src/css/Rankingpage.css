@@ -1,0 +1,56 @@
+.ranking-page{
+    width:100%;
+    min-height: 100%;
+    padding:1rem;
+    background-color: #f8f9fa;
+}
+.ranking-option-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    width:80%;
+    margin:0 auto;
+    margin-bottom:1rem;
+    justify-content: center;
+    background-color: white;
+    padding:0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+}
+.ranking-option-div >li{
+    list-style: none;
+    padding:1rem;
+    border:2px solid #ddd;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    }
+.ranking-list{
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+@media(max-width:1120px) and (min-width:900px){
+    .ranking-list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+}
+@media(max-width:900px) and (min-width:400px){
+    .ranking-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:400px){
+    .ranking-list{
+        grid-template-columns: 1fr;
+    }
+}

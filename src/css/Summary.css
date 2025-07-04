@@ -1,0 +1,49 @@
+.summary-container {
+    width: 80%;
+    margin: 1rem 10%;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding:1rem;
+  }
+  
+  .summary { 
+    position: relative;
+    transition: max-height 0.3s ease;
+  }
+   .summary h2{
+    margin-bottom:1rem;
+   }
+   .summary p{
+    margin:1rem;
+    line-height: 1.5;
+    word-spacing: 1.5;
+   }
+  .blureffect {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px; /* Adjust the height as needed */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+  }
+  
+  
+  .view-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-more:hover {
+    background-color: #0056b3;
+  }
+  .invisible{
+    display:none;
+  }

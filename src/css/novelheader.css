@@ -1,0 +1,118 @@
+.novel-container {
+    color: white;
+    /*background: url('http://localhost:3000/profileimages/hemantpic.jpg') center center/cover;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+.novel-detail{
+  display:flex;
+}
+  
+  .novel-cover img {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .novel-info {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .novel-info h1 {
+    margin: 0;
+  }
+  
+  .novel-rank-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .rank {
+    /*background-color: #ffc107;*/
+   font-size: 1.3rem;
+    margin-right: 1rem;
+    color: yellow;
+  }
+  
+  .rating {
+    font-size: 2rem;
+  }
+  
+  .novel-stats {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .novel-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .category {
+    background-color: purple;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .novel-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .read-button, .library-button {
+    background-color:purple;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .library-button:disabled{
+    background-color: #8b5ac2;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .read-button:hover, .library-button:hover {
+    opacity:0.8;
+  }
+
+@media (min-width:801px) and (max-width:1024px){
+    html{
+      font-size:80%;
+    }
+}
+@media(max-width:650px){
+  .novel-detail{
+    flex-direction:column;
+  }
+  .novel-info{
+    margin-left:0;
+  }
+  .read-button,.library-button{
+    font-size:0.9rem;
+  }
+}

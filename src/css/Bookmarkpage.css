@@ -1,0 +1,89 @@
+.bookmarked-novel{
+    width:100%;
+    height:5rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    gap:1rem;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+.bookmarked-novel img{
+    height:5rem;
+    width:6rem;
+    border-radius: 5px;
+    padding:5px;
+}
+.bookmarked-novel div{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    flex-grow:1;
+    min-width:7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.bookmarked-novel p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    
+    
+}
+.bookmark-div{
+padding:1rem;
+}
+
+
+@media(max-width:400px){
+    .bookmarked-novel{
+        font-size:1rem;
+    }
+}
+
+
+.confirmation-popup-bg{
+  position:fixed; 
+  background: rgba(0, 0, 0, 0.5);
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  z-index:500;
+  
+  
+}
+.confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius:5px;
+  }
+  
+  .confirmation-popup p {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-popup button {
+    padding:0.4rem;
+    margin-left:0.2rem;
+    background-color: purple;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .confirmation-popup button:hover{
+    opacity:0.5;
+  }
+
+  

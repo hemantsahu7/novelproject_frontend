@@ -1,0 +1,24 @@
+/**************** HERO SECTION CSS ***********************/
+
+.herodiv{
+    background-image: url('../assets/herosection.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    border:1px solid black;
+    padding: 6rem 2rem;
+   color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+.herodiv h1 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .herodiv p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }

@@ -1,0 +1,141 @@
+.chapter-table-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.chapter-table-container >h2 {
+
+    margin-bottom: 2rem;
+}
+
+.entries-per-page {
+    margin-bottom: 2rem;
+}
+
+.entries-per-page label {
+    font-size: 1.4rem;
+}
+
+.entries-per-page select {
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.search-bar {
+    margin-bottom: 2rem;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+}
+
+.chapter-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.chapter-table th, .chapter-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.chapter-table th {
+    background-color: #f1f1f1;
+}
+
+.chapter-table th:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.chapter-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 0.5rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    cursor: not-allowed;
+    background-color: #ddd;
+}
+
+
+
+.title-cell{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width:10rem;
+}
+.date-cell{
+    width:4rem;
+}
+.chapternumber-cell{
+    width:1rem;
+}
+
+.options-cell {
+    position: relative;
+    width:1rem;
+}
+
+.options-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.options-dropdown button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.options-dropdown button:hover {
+    background-color: #f2f2f2;
+}
+.add-chapter-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media(max-width:400px){
+    .chapter-table-container{
+        width:95%;
+    }
+    html{
+        font-size: 60%;
+    }
+}

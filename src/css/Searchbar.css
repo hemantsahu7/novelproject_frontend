@@ -1,0 +1,79 @@
+.searchpanel{
+    position: relative;
+    flex-grow: 1;
+    border-radius: 0.5rem;
+  }
+  
+  .search-form{
+    position:relative;
+  
+  }
+  .searchbar{
+    position: relative;
+    height: 2rem;
+    width:5rem;
+    padding:10px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    transition: all 2s ease; 
+  
+  }
+  .searchbar:focus ,.searchbar:hover{
+   width:20rem;
+  }
+  
+  .searchbtn{
+       position: absolute;
+       padding:5px 5px;
+       top:10%;
+       height:80%;
+
+       right:0.5rem;
+       border-radius: 5px;
+       background-color: purple;
+       border: none;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+
+  .search-suggestions-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top:100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 10rem;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the suggestion list is above other elements */
+  }
+  
+  .search-suggestion-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .search-suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .search-suggestion-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .search-suggestion-title {
+    font-size: 1rem;
+    color: #333;
+  }
+  

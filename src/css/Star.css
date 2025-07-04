@@ -1,0 +1,10 @@
+.star-div{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.star-color{
+    font-size: 0.8rem;
+    color: orange;
+}

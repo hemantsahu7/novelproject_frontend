@@ -1,0 +1,90 @@
+.filtered-novel-div{
+    width:80%;
+    margin:1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.5rem;
+}
+.novel-catlog {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.9rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .catlog-image {
+    width: 80px;
+    height: 120px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  
+  .catlog-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .catlog-title {
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+  }
+  
+  .catlog-rating {
+    font-size: 0.9rem;
+    color: #f39c12;
+  }
+  
+  .catlog-info-grid {
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates a 2x2 grid */
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 8px;
+  }
+  
+  .catlog-info-grid div {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .catlog-status {
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+  
+  .status-ongoing {
+    color: #e74c3c;
+  }
+  
+  .status-completed {
+    color: #2ecc71;
+  }
+  @media(max-width:900px){
+    .filter-top-container{
+      width:95%;
+    }
+    .filtered-novel-div{
+      width:95%;
+    }
+  }
+  @media(max-width:640px){
+    .filtered-novel-div{
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  

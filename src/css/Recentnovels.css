@@ -1,0 +1,159 @@
+/*.recently-updated-novels {
+    padding: 20px;
+    width:90%;
+    margin:0 auto;
+   
+}
+
+.recently-updated-novels h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.novel-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.novel-card {
+    display: flex;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding:1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    width:100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.novel-image {
+    width: 5rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius:0.8rem;
+}
+
+.recent-novel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left:1rem;
+    gap:0.5rem;
+}
+
+.recent-novel-info h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:100%;
+}
+
+.recent-novel-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.recent-novel-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.viewMore {
+    text-align: center;
+    margin-top: 1rem;
+    color:blue;
+    text-decoration: none;
+}
+
+@media(max-width:650px){
+    .novel-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}*/
+
+.recently-updated-novels {
+    padding: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recently-updated-novels h2 {
+    font-size: 1.5rem;
+    padding:5px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.novel-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.novel-card {
+    display: flex;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.novel-image {
+    width: 5rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.recent-novel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 1rem;
+    gap: 0.5rem;
+    width:100%;
+}
+.recent-novel-info h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 1rem);
+    text-align: left;
+}
+
+.recent-novel-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.recent-novel-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.viewMore {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+.viewMore p{
+    padding:1rem;
+}
+
+.updatepage-topcontainer{
+    background-color: #f8f9fa;
+}
+@media (max-width: 650px) {
+    .novel-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
